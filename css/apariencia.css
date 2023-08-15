@@ -1,0 +1,212 @@
+/*Estilos, eliminamos espacios por defecto*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos de cuerpo*/
+body {
+    font-family: Calibri Light;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagenes/body.jpg);
+}
+
+header {
+    font-family: Calibri Light;
+    color: aliceblue;
+    background-color: rgb(119, 6, 6);
+    text-align: center;
+    line-height: 30px;
+    position: fixed;
+    /*fijar */
+    left: 0;
+    /*ajuste de cabeza*/
+    top: 0;
+    width: 100%;
+    
+}
+
+.logo {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+nav.menu {
+    position: fixed;
+    float: left;
+    text-align: left;
+    padding-top: 12rem;
+    font-family: Calibri Light;
+    width: 20%;
+    height: 100%;
+}
+
+nav.menu li {
+    border-bottom: 1px solid rgba(247, 250, 248, 0.205);
+    color: rgb(8, 8, 8);
+    padding: 10px 10px;
+    list-style: none;
+}
+
+nav.menu li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+/*nav.menu li a:hover {
+    margin-bottom: 1px;
+    background: rgba(8, 8, 8, 0.178);
+    
+}*/
+
+nav.menu ul li ul {
+    /*Ocultamos submenu*/
+    display: none;
+}
+
+nav.menu ul li:hover ul {
+    /*Al estar encima del menu este me despliega el submenu*/
+    display: block;
+}
+
+.sedecali {
+    line-height: 25px;
+    text-align: left;
+    position:static;
+       padding-left: 15%;
+    padding-top: 20%;
+}
+
+.sedecartagena {
+    line-height: 25px;
+    text-align: left;
+    position:static;
+    padding-left: 15%;
+    padding-top: 20%;
+}
+ 
+
+
+.sedemedellin {
+    line-height: 25px;
+    text-align: left;
+    position:static;
+    padding-left: 15%;
+    padding-top: 20%;
+}
+
+.sedesanandres {
+    line-height: 25px;
+    text-align: left;
+    position:static;
+    padding-left: 15%;
+    padding-top: 20%;
+}
+
+.sedetunja {
+    line-height: 25px;
+    text-align: left;
+    position:static;
+    padding-left: 15%;
+    padding-top: 20%;
+}
+
+.servicio {
+    line-height: 25px;
+    text-align: left;
+    position:static;
+    padding-left: 15%;
+    padding-top: 20%;
+}
+
+.evento {
+    line-height: 25px;
+    text-align: left;
+    position:static;
+    padding-left: 15%;
+    padding-top: 20%;
+}
+
+.cotizar {
+    line-height: 25px;
+    text-align: left;
+    position:static;
+    padding-left: 15%;
+    padding-top: 20%;
+}
+
+.form {
+    background-color: rgb(226, 221, 221);
+    border-radius: 3px;
+    color: rgb(12, 12, 12);
+    padding: 10px;
+    margin: left;
+    width: 600px;
+
+}
+
+
+
+div.division4 {
+    float: right;
+    position: right;
+    padding-top: 12rem;
+    font-family: Calibri Light;
+    width: 20%;
+    height: 100%;
+}
+
+
+div.division4 li {
+    border-bottom: 1px solid rgba(247, 250, 248, 0.205);
+    color: rgb(8, 8, 8);
+    padding: 10px 10px;
+    list-style: none;
+}
+
+div.division4 li a {
+    display: block;
+    text-decoration: none;
+}
+
+div.division3 {
+    line-height: 25px;
+    text-align: left;
+    position:static;
+    padding-left: 15%;
+    padding-top: 20%;
+
+}
+
+/*Estilos pie de pagina*/
+.piepagina {
+    line-height: 20px;
+    position: relative;
+    margin-top: -2px;
+    width: 100%;
+    padding: 50px;
+    /*Información interior*/
+    clear: both;
+    /*Colocar Pie de pagina debajo de otro elemento */
+    text-align: center;
+    font-family: Calibri Light;
+    background-color: rgb(119, 6, 6);
+    color: rgba(247, 250, 248)
+}
+
+.tipo  {
+ 
+    display:inline-table;
+
+}
+
+
+
+
+
+ 
